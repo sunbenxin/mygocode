@@ -22,6 +22,8 @@ func main() {
 	if []rune(a[0])[0] == b[0] {
 		fmt.Println(([]rune(a[0])[0]))
 	}
+
+	fmt.Println(string([]rune("a孙本新")[:2]))
 }
 
 func IsChineseChar(str string) bool {
